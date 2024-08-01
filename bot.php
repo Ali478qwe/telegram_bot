@@ -1,6 +1,6 @@
 <?php 
 $token = "7305960739:AAFjL383HQdvT84_ylpODx8ambhdnUh5PMw";
-$web_hook = "https://75ac-2a01-5ec0-501a-fc20-586-d0d0-6995-bbc8.ngrok-free.app/page/bot.php";   
+$web_hook = "https://github.com/Ali478qwe/telegram_bot/blob/main/bot.php";   
 $api = "https://api.telegram.org/bot$token/setWebhook?url=$web_hook";
 function sendMessage($chatid, $message){
    global $api;
